@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* CSS Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Rubik+Glitch&family=Syne:wght@400..800&display=swap');
+
+/* Root and Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*
+    COLORS:
+        #373539
+        #F6DA9D
+        #AD0013
+        #A67D43
+        #121312
+        #FFFBF4
+    */
+    /*Base Colors*/
+    --Background: #373539;
+    --Text: #FFFBF4;
+    /*Contrast and Accent Colors*/
+    --Accent: #121312;
+    --Contrast: #F6DA9D;
+    --Contrast-less: #A67D43;
+    --CTA: #AD0013;
+    /*Typography*/
+    --Font-Text : 'Montserrat', sans-serif; 
+    --Font-title: 'Syne', sans-serif;
+    --Font-Display: 'Rubik Glitch', cursive;
+}
+
+
