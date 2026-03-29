@@ -20,7 +20,8 @@
         #FFFBF4
     */
     /*Base Colors*/
-    --Background: #373539;
+    --Background: #000000;
+    --Background-Blend: #1f1f1fe3;
     --Text: #FFFBF4;
     /*Contrast and Accent Colors*/
     --Accent: #121312;
