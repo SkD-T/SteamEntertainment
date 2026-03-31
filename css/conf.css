@@ -1,12 +1,28 @@
 @charset "UTF-8";
 
-/* CSS Import fonts */
+/* Title: Import Fonts
+   Status: Finalizado
+   Features: 
+    - Importação de fontes do Google Fonts
+    Reasoning: 
+    - As fontes importadas são essenciais para a identidade visual do site, proporcionando uma estética única e alinhada com o tema de entretenimento.
+ */
+ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Rubik+Glitch&family=Syne:wght@400..800&display=swap');
 
-/* Root and Reset */
-* {
+/* Title: Root and Reset
+   Status: Finalizado
+   Features: 
+    - Reset de margens e padding
+    - Definição de variáveis CSS para cores e fontes
+   Reasoning: 
+    - O reset é essencial para garantir consistência entre navegadores.
+    - As variáveis CSS facilitam a manutenção e a aplicação de temas. 
+*/
+*, *::before, *::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -19,7 +35,14 @@
         #121312
         #FFFBF4
     */
-    /*Base Colors*/
+    /*
+     Title: Base Colors
+     Status: Finalizado
+     Features:
+        - Definição de variáveis CSS para cores de fundo, texto e contraste
+     Reasoning:
+        - Facilita a manutenção e a aplicação de temas, permitindo mudanças rápidas e consistentes em todo o site.    
+    */
     --Background: #000000;
     --Background-Blend: #1f1f1fe3;
     --Text: #FFFBF4;

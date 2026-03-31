@@ -1,0 +1,25 @@
+
+/* =========================
+   MENU / NAVEGAÇÃO
+========================= */
+/* Menu em manutenção, por enquanto só tem o título, mas talvez seja incorporado depois, por isso o código está comentado. 
+#menu {
+    display: none;
+    width: 50%;
+    line-height: 30px;
+}
+
+.navigation {
+    display: block;
+    padding: 0px 10px;
+}
+
+.nav-link {
+    font-family: var(--Font-Text);
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    color: var(--Contrast);
+    transition: all 0.3s ease;
+}
+*/
