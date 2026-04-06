@@ -50,7 +50,8 @@
     --Accent: #121312;
     --Contrast: #F6DA9D;
     --Contrast-less: #A67D43;
-    --CTA: #AD0013;
+    --CTA: #80000f;
+    --CTAHover: #ff001e;
     /*Typography*/
     --Font-Text : 'Montserrat', sans-serif; 
     --Font-title: 'Syne', sans-serif;

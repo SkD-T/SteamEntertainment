@@ -14,7 +14,7 @@
     position: relative;/* Necessário para posicionar o pseudo-elemento em relação a este container */
 }
 
-.bg-hero::before {
+.bg-hero::after {
     content: "";
     position: fixed;
     inset: 0; /* cobre tudo corretamente */
@@ -22,7 +22,7 @@
     background: url("../../images/Img-fundo-blur.jpeg") center / cover no-repeat;
 
     filter: blur(15px) contrast(1.1) brightness(0.9);
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0.4;
 
     /* 🔥 MÁSCARA (imagem só no círculo claro) */

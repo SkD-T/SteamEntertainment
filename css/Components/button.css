@@ -1,0 +1,21 @@
+.btn{
+    background-color: var(--CTA);     
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--Font-title);
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin: 5%;
+    transform: scale(1.1); 
+}
+
+.btn:hover {
+    background-color: var(--CTAHover);
+    color: var(--Accent);
+    transform: scale(1.15);
+}

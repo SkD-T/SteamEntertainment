@@ -1,7 +1,11 @@
 @charset "UTF-8";
-
-/* RESET / BASE GLOBAL */
-html, body {
+/* Title: Base Styles
+   Status: Finalizado
+   Features:
+    - Estilos base para o corpo, layout e elementos estruturais do site
+   Reasoning:
+    - Define a base para o design do site, garantindo consistência e uma estrutura sólida para o desenvolvimento de estilos adicionais. O uso de Flexbox para o layout principal assegura que o footer permaneça no final da página, mesmo com pouco conteúdo, proporcionando uma experiência de usuário mais agradável.    
+*/body {
     width: 100%; /* Garante que o fundo cubra toda a largura */
     height: 100%; /* Garante que o fundo cubra toda a altura */
     margin: 0; /* Remove espaçamento padrão */
@@ -44,7 +48,12 @@ footer {
     color: var(--Contrast); 
 }
 
-/* MARCA / TÍTULO */
+/* MARCA / TÍTULO 
+    Title: Marca
+    Status: Em desenvolvimento, pode ser ajustado ou expandido conforme necessário.
+    Features: Estilo para o título principal da marca, utilizando uma fonte impactante e um espaçamento entre letras para destacar a identidade visual do site.
+    Reasoning: O título é um elemento crucial para a identidade visual do site, e um estilo marcante ajuda a criar uma impressão forte e memorável para os visitantes, reforçando a marca e atraindo a atenção para o conteúdo do
+*/
 #marca {
     /*Typography*/
     font-family: var(--Font-title); 
