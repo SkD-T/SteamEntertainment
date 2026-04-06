@@ -49,9 +49,9 @@
     /*Contrast and Accent Colors*/
     --Accent: #121312;
     --Contrast: #F6DA9D;
-    --Contrast-less: #A67D43;
-    --CTA: #80000f;
-    --CTAHover: #ff001e;
+    --Constrast-Accent: #c7b07f;
+    --CTA: #861321;
+    --CTAHover: #ac1a2b;
     /*Typography*/
     --Font-Text : 'Montserrat', sans-serif; 
     --Font-title: 'Syne', sans-serif;

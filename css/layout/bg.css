@@ -2,42 +2,13 @@
     background: 
      radial-gradient(
         circle at 98% 20%,  /* Posição do centro do gradiente (98% da largura, 20% da altura) */
-        #1f1f1fe3,
-        #121212, 
-        #000000 
+        #ebd095,
+        #1f1f1fe3 ,
+        #121212 , 
+        #000000  
     )
 }
 .bg-image {
     background: url('../images/imagem\ de\ fundo\ chamativa.jpeg') 20% 20% / cover no-repeat; /* Imagem de fundo com posição, tamanho e repetição */
 }
-.bg-hero{
-    position: relative;/* Necessário para posicionar o pseudo-elemento em relação a este container */
-}
 
-.bg-hero::after {
-    content: "";
-    position: fixed;
-    inset: 0; /* cobre tudo corretamente */
-
-    background: url("../../images/Img-fundo-blur.jpeg") center / cover no-repeat;
-
-    filter: blur(15px) contrast(1.1) brightness(0.9);
-    transform: scale(1.1);
-    opacity: 0.4;
-
-    /* 🔥 MÁSCARA (imagem só no círculo claro) */
-    -webkit-mask-image: radial-gradient(
-        circle at 98% 20%,
-        white 0%,
-        transparent 100%
-    );
-
-    mask-image: radial-gradient(
-        circle at 98% 20%,
-        white 0%,
-        transparent 60%
-    );
-
-    pointer-events: none;
-    z-index: -1;
-}

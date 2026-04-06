@@ -5,7 +5,7 @@
     - Estilos base para o corpo, layout e elementos estruturais do site
    Reasoning:
     - Define a base para o design do site, garantindo consistência e uma estrutura sólida para o desenvolvimento de estilos adicionais. O uso de Flexbox para o layout principal assegura que o footer permaneça no final da página, mesmo com pouco conteúdo, proporcionando uma experiência de usuário mais agradável.    
-*/body {
+*/body,html {
     width: 100%; /* Garante que o fundo cubra toda a largura */
     height: 100%; /* Garante que o fundo cubra toda a altura */
     margin: 0; /* Remove espaçamento padrão */
