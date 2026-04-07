@@ -1,0 +1,5 @@
+h1{
+    font: bold clamp( 2rem, 3vw, 3.5rem) var(--Font-title);
+    color: var(--Contrast-two);
+    margin: 1rem;
+}

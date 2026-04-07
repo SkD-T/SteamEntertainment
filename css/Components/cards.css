@@ -40,3 +40,42 @@
 .atraction p {
     margin-top: auto;
 }
+
+/*Nota: O uso de flex-wrap: wrap; na classe .container-atractions permite que os cards se ajustem automaticamente à largura disponível, criando uma experiência responsiva. O uso de flex: 1 1 100px; na classe .atraction garante que os cards cresçam para preencher o espaço disponível, mas nunca fiquem menores que 300px, mantendo a legibilidade e a estética do design.*/
+
+/* Cards de Noticias */
+
+@media screen and (max-width: 768px) {
+    .sec-artigos {
+    margin: 20px 3%;
+}
+
+.artigo{
+    flex: 1 1 200px; /* cresce, mas nunca fica menor que 300px */
+    background-color: #0000003d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.3s ease;
+
+    color: var(--Contrast);
+}
+.container-artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.sec-artigos>h2{
+    text-align: center;
+    font-family: var(--Font-title);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    color: var(--Contrast);
+    text-shadow: 1px 1px 4px var(--Accent);
+    margin-bottom: 20px;
+}
+
+}

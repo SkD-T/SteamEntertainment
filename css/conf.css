@@ -48,7 +48,8 @@
     --Text: #FFFBF4;
     /*Contrast and Accent Colors*/
     --Accent: #121312;
-    --Contrast: #F6DA9D;
+    --Contrast: #F6DA9D;/*2ecc71 pensar depois*/
+    --Contrast-two: #E3C565;
     --Constrast-Accent: #c7b07f;
     --CTA: #861321;
     --CTAHover: #ac1a2b;
